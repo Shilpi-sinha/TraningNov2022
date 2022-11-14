@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+}
+
+body {
+    background-color: pink;
+}
+
+.logo img {
+    width: 10%;
+}
+.logo p{
+    display: inline;
+}
+.profile {
+    display: flex;
+justify-content: center;
+}
+
+.profile img {
+    width: 30%;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.topnav {
+    position: fixed;
+    right: 0px;
+    background-color: #333;
+    overflow: hidden;
+    display: inline;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #be69b3;
+    color: white;
+}
+
+h1{
+    
+    margin-left: 550px;
+}
+.description{
+    margin-left: 20px;
+}
+.myform {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 5px;
+    position: absolute;
+    left: 100px;
+}
